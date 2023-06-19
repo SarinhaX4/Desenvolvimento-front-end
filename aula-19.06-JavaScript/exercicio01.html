@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 01</title>
+</head>
+<body>
+
+    <script>
+        var A = prompt("1° lado: ");
+        var B = prompt("2° lado: ");
+        var C = prompt("3° lado: ");
+
+        A = parseFloat(A);
+        B = parseFloat(B);
+        C = parseFloat(C);
+
+        var P = (A + B + C ) / 2;
+        var T = P * (P - A) * (P - B) * (P - C);
+        var S = T ** (1/2); //Elevar a 1/2 é equivalente a declarar raiz quadrada
+
+        document.write ("A área do triângulo é   " + S)
+    </script>
+    
+</body>
+</html>

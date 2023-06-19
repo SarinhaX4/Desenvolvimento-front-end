@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO 02</title>
+</head>
+<body>
+
+    <script>
+        var A = prompt("Digite o valor da variável a: ");
+        var B = prompt("Digite o valor da variável b:  ");
+        var C = prompt("Digite o valor da variável c: ");
+
+        var Delta = B**2 - 4*A*C
+        var X1 = (-B + Delta**(1/2))/(2*A);
+        var X2 = (-B - Delta**(1/2))/(2*A);
+
+        A = parseFloat(A);
+        B = parseFloat(B);
+        C = parseFloat(C);
+        Delta = parseFloat(Delta);
+        X1 = parseFloat(X1);
+        X2 = parseFloat(X2);
+
+        document.write ("As raízes da função são " + X1 + " e " + X2)
+
+    </script>
+    
+</body>
+</html>
